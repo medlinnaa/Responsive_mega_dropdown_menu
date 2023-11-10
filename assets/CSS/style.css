@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: #fff;
+  }
+
+  header{
+    display: flex;
+    padding: 2rem 5rem;
+    justify-content: space-between;
+  }
+
+  header img{
+    width: 15%;
+  }
+
+  img{
+    margin-right: 30px;
+  }
+  
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover{
+    color: #0089cf;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 95%;
+    left: 30px;
+    padding-left: 210px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding-top: 10px;
+    background-color: #fff;
+    height: 300px;
+  }
+  
+  .column a {
+    float: none;
+    color: #7a7a7a;
+    padding-top: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .column a:hover:not(:nth-child(1)){
+    background-color: rgb(248, 244, 244);
+    color: #1a88c9;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.column h5 a{
+    color: #7a7a7a;
+}
+
+  .column h5 a:hover{
+    color: #0089cf;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+ .button button{
+    width:150%;
+    height: 40px;
+    background-color: #1a88c9;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #52bfff;
+}
+
+
+.second-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 15%;
+  left: 680px;
+  padding-left: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+  .second-dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .second-dropdown .second-dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+
+  .second-dropdown:hover .second-dropdown-content {
+    display: block;
+  }
+
+  .second-column a:hover{
+    background-color: rgb(248, 244, 244);
+    color: #1a88c9;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.second-column {
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+    margin-left: 0px;
+    background-color: #fff;
+    height: 190px;
+  }
+  
+  .second-column a {
+    float: none;
+    color: #7a7a7a;
+    padding-top: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .dropbtn:hover{
+    color: #0089cf;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .second-dropbtn:hover{
+    color: #0089cf;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+  }
+
+
+  /* hamburger menu */
+
+  .hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
